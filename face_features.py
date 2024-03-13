@@ -4,7 +4,7 @@ import cv2
 
 class FaceFeature():
     def __init__(self):
-        p = "shape_predictor_68_face_landmarks.dat"
+        p = "D:\\workspace\\VisualTimeKeeper\\shape_predictor_68_face_landmarks.dat"
         self._face_detector = dlib.get_frontal_face_detector()
         self._landmark_detector = dlib.shape_predictor(p)
         
